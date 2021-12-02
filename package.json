@@ -4,7 +4,7 @@
   "description": "Servidor de aplicação para gerenciamento dos clientes",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon"
+    "start": "nodemon"
   },
   "keywords": [
     "node",
@@ -13,5 +13,12 @@
     "JWT"
   ],
   "author": "Luciana Ferraz do Amaral Martins",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
 }
